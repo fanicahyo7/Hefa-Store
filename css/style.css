@@ -7,5 +7,22 @@ body {
 }
 
 .nav-item {
-    margin-right: 20px;
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
 }
