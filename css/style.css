@@ -26,3 +26,18 @@ body {
     background-color: #171717;
     color: white;
 }
+
+.spesial h3 {
+    font-family: 'Lora';
+    color: #1B2690;
+    font-weight: bold;
+}
+
+.spesial p {
+    font-weight: 200;
+    color: #B7B7B7;
+}
+
+.figure h5 {
+    color: #171717;
+}
