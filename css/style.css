@@ -27,13 +27,13 @@ body {
     color: white;
 }
 
-.spesial h3 {
+.spesial h3, .designer h3 {
     font-family: 'Lora';
     color: #1B2690;
     font-weight: bold;
 }
 
-.spesial p {
+.spesial p, .designer p, footer p {
     font-weight: 200;
     color: #B7B7B7;
 }
@@ -41,3 +41,26 @@ body {
 .figure h5 {
     color: #171717;
 }
+
+.figure-img {
+    position: relative;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.figure-img a {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.figure-img a:hover {
+    opacity: 1;
+}
+
+
